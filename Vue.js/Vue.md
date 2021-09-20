@@ -22,7 +22,7 @@
 
 ## < vue 인스턴스 작성 >
 
-```
+```JavaScript
 new Vue({
 	el : 어느 html 요소를 연결할 것인가
 	data : 어떤 데이터인가
