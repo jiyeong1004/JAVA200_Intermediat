@@ -20,6 +20,18 @@
 
 **component** : 컴포넌트 조립
 
+## < vue 인스턴스 작성 >
+
+```
+new Vue({
+	el : 어느 html 요소를 연결할 것인가
+	data : 어떤 데이터인가
+	methods : 어떤 처리를 하는가
+	computed : 어느 데이터를 사용하여 계산하는가
+	watch : 어느 데이터를 감시하는가
+})
+```
+
 싱글 파일 컴포넌트
 
 # Vuetify
