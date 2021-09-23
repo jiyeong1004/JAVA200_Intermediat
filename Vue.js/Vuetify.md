@@ -1,6 +1,6 @@
 ## < Vuetify 설치>
 
-```bash
+```Shell
 vue add vuetify
 ```
 
