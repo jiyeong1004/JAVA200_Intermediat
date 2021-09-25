@@ -31,3 +31,61 @@ new Vue({
 	watch : 어느 데이터를 감시하는가
 })
 ```
+
+## 싱글 파일 컴포넌트(Single File Components) 체계
+
+- .vue 파일로 프로젝트 구조를 구성하는 방식
+
+- 확장자 .vue 파일 1개는 뷰 애플리케이션을 구성하는 1개의 컴포넌트와 동일하다.
+
+## .vue 파일의 기본 구조
+
+```jsx
+<template>
+	<!-- HTML 태그 내용 -->
+</template>
+
+<script>
+export default {
+	// 자바스크립트 내용
+}
+</script>
+
+<style>
+	/* CSS 스타일 내용 */
+</style>
+```
+
+### 화면에 표시할 요소들을 정의하는 영역
+
+ex) HTML + 뷰 데이터 바인딩
+
+```html
+<template>
+	<!-- HTML 태그 내용 -->
+</template>
+```
+
+### 뷰 컴포넌트의 내용을 정의하는 영역
+
+ex) template, data, methods 등
+
+```jsx
+<script>
+export default {
+	// 자바스크립트 내용
+}
+</script>
+```
+
+### 템플릿에 추가한 HTML 태그의 CSS 스타일을 정의하는 영역
+
+```css
+<style>
+	/* CSS 스타일 내용 */
+</style>
+```
+
+- v-bind + props : 상위 컴포넌트에서 하위 컴포넌트로의 데이터 전달
+
+- v-on + $emit : 하위 컴포넌트에서 상위 컴포넌트로 데이터 전달
