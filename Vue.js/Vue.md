@@ -89,3 +89,30 @@ export default {
 - v-bind + props : 상위 컴포넌트에서 하위 컴포넌트로의 데이터 전달
 
 - v-on + $emit : 하위 컴포넌트에서 상위 컴포넌트로 데이터 전달
+
+
+## 🌱  `v-bind` 약어
+
+```html
+<!-- 전체 문법 -->
+<a v-bind:href="url"> ... </a>
+
+<!-- 약어 -->
+<a :href="url"> ... </a>
+```
+
+`v-bind:`  =  `:`
+
+단방향 바인딩
+
+## 🌱  `v-on` 약어
+
+```html
+<!-- 전체 문법 -->
+<a v-on:click="doSomething"> ... </a>
+
+<!-- 약어 -->
+<a @click="doSomething"> ... </a>
+```
+
+`v-on:`  =  `@`
