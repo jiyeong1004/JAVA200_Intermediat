@@ -1,3 +1,9 @@
+< 물리와 관련된 컴포넌트 >
+
+2D : Component - Physics 2D
+
+3D : Component - Physics
+
 # Collider2D 컴포넌트
 
 - 2차원 공간에서 오브젝트의 충돌 범위를 나타내는 컴포넌트
